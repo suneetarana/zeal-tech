@@ -1,0 +1,167 @@
+
+ /* Large devices (desktops, less than 1200px) */
+ @media (max-width: 1200px) { 
+
+  .navbar .social-icons{
+    display:none;
+}
+
+}
+
+ /* Medium devices (tablets, less than 992px) */
+@media (max-width: 992px) { 
+  html{
+    font-size:15px;
+  }
+
+  .navbar .social-icons{
+    display:none;
+}
+}
+
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 768px) { 
+  html{
+    font-size:14px;
+  }
+  .navbar .social-icons{
+    display:none;
+}
+.navbar .navbar-nav{
+  padding-left:1rem;
+}
+.banner{
+  height:450px;
+}
+.grid-img-big{
+  height:300px;
+}
+.grid-img-big .img-caption{
+  bottom: 40%;
+  left:10%;
+}
+.grid-img-small .img-caption{
+  
+  left:10%;
+}
+.course-detail .side-section{
+  text-align:center;
+
+}
+
+.button .simple-btn{
+  width:50%;
+  margin:0 auto;
+}
+.course-detail .side-section{
+  padding-bottom:0;
+}
+.tab-wrapper{
+  margin:0;
+}
+
+.contact-form .animated-btn{
+  margin-bottom:2rem;
+}
+.section-padding{
+  padding:2rem 0;
+}
+.content-img{
+  height:400px;
+  margin-bottom:2rem;
+}
+
+.event-details{
+  margin-bottom:2rem;
+}
+
+#all-course .button .simple-btn{
+  width:100%;
+}
+.about-details h2{
+  margin-top:1rem;
+}
+
+
+}
+
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width:576px) {
+        html{
+          font-size:12px;
+        } 
+        .navbar{
+          padding-left:1rem;
+          padding-right:2rem;
+        }
+        .navbar .navbar-nav{
+          padding-left:1rem;
+        }
+        .banner{
+          height:350px;
+        }
+        .search-tags{
+          display:none;
+        }
+        
+        .search-box{
+          width:90%;
+        }
+        .search-box .course-search .form-control{
+          height:40px;
+        }
+     
+       
+        .faq-t{display:none;}
+        .topic-title{
+        padding-right: 0px;
+      }
+      
+        .topic-details{
+        padding-left:0px;
+        padding-right:0px;
+      }
+
+      #ongoing-class .card{
+        margin-bottom:3rem;
+      }
+      .photos .owl-carousel .item{
+        height:350px;
+    }
+    .grid-img-big{
+      height:250px;
+    }
+
+    #events .owl-prev,
+    #events .owl-next {
+    position:static;
+  
+  }
+    .content-img{
+      height:300px;
+      margin-bottom:2rem;
+    }
+
+    .event-details{
+      margin-bottom:2rem;
+    }
+    #blog-page .media{
+      display: block;
+    }
+    #blog-page .media-img{
+      display: block;
+
+    }
+    #blog-page .media-body{
+      display:block;
+    }
+
+    #blog-page .media .media-img{
+      height:150px;
+      width:200px;
+      margin-right:2rem;
+  }
+  
+  
+}
